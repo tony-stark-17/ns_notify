@@ -1,4 +1,4 @@
-<img src="">
+<img src="https://forum.cfx.re/uploads/default/optimized/4X/d/f/d/dfd72d5104c19c2635d49cdde62df6465fa16ad1_2_690x324.png">
 
 To use this script in your own resource you need to trigger either from the client or server side. I provide you the code for both sides
 
