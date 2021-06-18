@@ -80,17 +80,17 @@
                     duration: 600,
                     easing: 'spring(1, 80, 10, 0)',
                 })
-                // setTimeout(function () {
-                //     anime({
-                //         targets: `.wrapper-${number}`,
-                //         translateX: 500,
-                //         duration: 500,
-                //         easing: 'spring(1, 80, 10, 0)'
-                //     })
-                //     setTimeout(function () {
-                //         $(`.wrapper-${number}`).remove()
-                //     }, 650)
-                // }, event.data.time)
+                setTimeout(function () {
+                     anime({
+                         targets: `.wrapper-${number}`,
+                         translateX: 500,
+                         duration: 500,
+                         easing: 'spring(1, 80, 10, 0)'
+                     })
+                     setTimeout(function () {
+                         $(`.wrapper-${number}`).remove()
+                     }, 650)
+                 }, event.data.time)
             }
         })
     })
