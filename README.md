@@ -1,3 +1,5 @@
+<img src="">
+
 To use this script in your own resource you need to trigger either from the client or server side. I provide you the code for both sides
 
 
